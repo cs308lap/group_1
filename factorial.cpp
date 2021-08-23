@@ -4,7 +4,7 @@
 int factorial(int n){
     if (n < 0)
     {
-      throw std::runtime_error("Enter a positive value for n!");
+      throw std::runtime_error("Enter a positive value for n! as we can calculate factorial for positive values");
     }
     if(n != 1)
     {
